@@ -1219,11 +1219,6 @@ namespace aspect
     // that the density does not appear on the lhs.
 
     return (material_model->get_model_dependence().viscosity != MaterialModel::NonlinearDependence::none);
-
-
-
-
-
   }
 }
 
